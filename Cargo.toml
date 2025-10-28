@@ -1,0 +1,13 @@
+[package]
+name = "rust-hash-tool"
+version = "0.1.0"
+edition = "2024"
+authors = ["phcarneirobc"]
+description = "CLI tool for SHA256/SHA512 calculation"
+license = "MIT"
+
+[dependencies]
+sha2 = "0.10"
+clap = { version = "4.4", features = ["derive"] }
+
+[dev-dependencies]
